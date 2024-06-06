@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\les3\\generator\\bin\\www"
+            "program": "${workspaceFolder}\\les4\\app.js"
         }
     ]
 }
