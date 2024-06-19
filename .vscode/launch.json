@@ -28,6 +28,14 @@
                 "<node_internals>/**"
             ],
             "program": "${workspaceFolder}\\les6\\sequelize\\db\\demo.js"
+        },{
+            "type": "node",
+            "request": "launch",
+            "name": "pas demo",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\username-password-tutorial\\bin\\www"
         },
     ]
 }
