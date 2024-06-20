@@ -20,6 +20,14 @@
                 "<node_internals>/**"
             ],
             "program": "${workspaceFolder}\\les5\\jade\\bin\\www"
+        },{
+            "type": "node",
+            "request": "launch",
+            "name": "db demo",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\les6\\sequelize\\db\\demo.js"
         },
     ]
 }
