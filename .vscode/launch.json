@@ -12,6 +12,14 @@
                 "<node_internals>/**"
             ],
             "program": "${workspaceFolder}\\les4\\app.js"
-        }
+        },{
+            "type": "node",
+            "request": "launch",
+            "name": "Jade Templates",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\les5\\jade\\bin\\www"
+        },
     ]
 }
